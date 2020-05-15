@@ -21,7 +21,7 @@ out.print("5");
 
 try{
         Class.forName("org.postgresql.Driver");
-        java.sql.Connection con = DriverManager.getConnection("jdbc:postgresql://ec2-176-34-97-213.eu-west-1.compute.amazonaws.com:5432/d6vu3tk6kemoud?sslmode=require","fqqaklpfmgwpsf","e2200b3bbe4116e22c8db03561907786dfdcf3993b40dd9299d8c4b90ee54b76");
+        java.sql.Connection con = DriverManager.getConnection("jdbc:postgresql://ec2-34-232-147-86.compute-1.amazonaws.com:5432/ddaru821putkoo?sslmode=require","fjkuqvoqludjcf","d659458c31071a716259d194162347bd74d03abb45db1733c3beec45c361f2f7");
 
 //        java.sql.Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","1043");
 Statement st= con.createStatement();
